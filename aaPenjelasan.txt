@@ -1,0 +1,18 @@
+**Database Name: carrentalp**
+
+**Developed by Afra**
+
+
+**Contoh akun yang bisa digunakan untuk login Customer**
+
+Username: lucas
+Password: password
+
+
+**Contoh akun yang bisa digunakan untuk login Employee**
+
+Username: harry
+Password: password
+
+Username: jenny
+Password: jenny
