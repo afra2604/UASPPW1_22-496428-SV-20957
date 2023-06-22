@@ -4,7 +4,7 @@
 
 ## Catatan:
 ### Penjelasan umum :
-Website Car Rental by Ceryneian ini merupakan website yang memiliki jasa penyewaan mobil bagi orang yang ingin atau membutuhkan mobil dalam jangka waktu tertentu sesuai dengan perjanjian. Penyewaan ini memudahkan pengguna untuk bisa langsung membooking mobil tanpa harus datang terlebih dahulu ketempat penyewaannya. 
+Website Car Rental by Ceryneian ini merupakan website yang memiliki jasa penyewaan mobil bagi orang yang ingin atau membutuhkan mobil dalam jangka waktu tertentu sesuai dengan perjanjian. Penyewaan ini memudahkan pengguna untuk bisa langsung membooking mobil tanpa harus datang terlebih dahulu ketempat penyewaannya. Selain lebih nyaman digunakan oleh peminjam, website ini juga memudahkan bagi pegawai yang ingin mengupdate data. 
 
 ### Responsive :
 Ketika tampilan website berukuran diatas 768px maka class-class ini akan mengoverride style css
@@ -62,22 +62,34 @@ Website akan beberbentuk seperti ini jika tampilannya diperkecil :
 <img width="1440" alt="Jepretan Layar 2023-06-22 pukul 08 22 26" src="https://github.com/afra2604/UASPPW1_22-496428-SV-20957/assets/109967726/7f01c1fe-f4aa-4df9-a700-06734a30a8a4">
 
 ### Kerapian
-Pada page-page website yang mirip tampilan dibuat sama agar tampilan tetap konsisten
+Pada page-page website yang mirip tampilan dibuat sama agar tampilan tetap konsisten sehingga terasa nyaman untuk dilihat. 
 
-<img width="1440" alt="Jepretan Layar 2023-06-22 pukul 11 52 30" src="https://github.com/afra2604/UASPPW1_22-496428-SV-20957/assets/109967726/55a511ff-bb94-42ae-b69b-e956cbbaa63d">
+<img width="1440" alt="Jepretan Layar 2023-06-22 pukul 11 52 30" src="https://github.com/afra2604/UASPPW1_22-496428-SV-20957/assets/109967726/cd797ccb-96f5-49fc-b184-ebdf11fee08d">
 
-<img width="1440" alt="Jepretan Layar 2023-06-22 pukul 11 52 22" src="https://github.com/afra2604/UASPPW1_22-496428-SV-20957/assets/109967726/0088695f-d436-42f0-8d59-8666bd763431">
+<img width="1440" alt="Jepretan Layar 2023-06-22 pukul 11 52 22" src="https://github.com/afra2604/UASPPW1_22-496428-SV-20957/assets/109967726/2b020749-bc23-4c0d-b8ef-bee32f007727">
 
-<img width="1440" alt="Jepretan Layar 2023-06-22 pukul 11 52 13" src="https://github.com/afra2604/UASPPW1_22-496428-SV-20957/assets/109967726/f990afb6-ab78-4ccb-b60d-ab62d0b2a710">
-
-<img width="1440" alt="Jepretan Layar 2023-06-22 pukul 11 52 03" src="https://github.com/afra2604/UASPPW1_22-496428-SV-20957/assets/109967726/38c96770-0eae-4a45-8b23-67dd17261b56">
+<img width="1440" alt="Jepretan Layar 2023-06-22 pukul 11 52 13" src="https://github.com/afra2604/UASPPW1_22-496428-SV-20957/assets/109967726/e2e5f757-bd3b-4638-b38e-a7aca91c490b">
 
 
 ### JavaScript
+Kode berikut memiliki fungsi topFunction() digunakan untuk menggulir halaman web ke bagian atas atau ke posisi awal. Dengan menggulirkan nilai scrollTop ke 0 pada elemen body dan elemen root dokumen, fungsi topFunction() akan menggulirkan halaman web ke posisi atas atau ke bagian paling atas halaman tersebut.
+
+```JS
+function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+```
+
+Kode tersebut akan menampilkan tombol dengan ikon panah ke atas dan ketika tombol tersebut diklik, akan memanggil fungsi topFunction() untuk menggulirkan halaman ke atas.
+
+```HTML
+<button onclick="topFunction()" id="myBtn" title="Go to top">
+      <span class="glyphicon glyphicon-chevron-up"></span>
+    </button>
+```
 
 ### Konten Dinamis
-
-Untuk mengambil data dari database
 
 ``` PHP
 <section class="menu-content">
@@ -96,9 +108,7 @@ Untuk mengambil data dari database
                     $car_img = $row1["car_img"];
                
                     ?>
-  ```
-Untuk menampilkan data hasil sql ke website 
-``` HTML
+ 
             <a href="booking.php?id=<?php echo($car_id) ?>">
             <div class="sub-menu">
             
@@ -118,6 +128,13 @@ Untuk menampilkan data hasil sql ke website
                 <?php
             }
             ?>                                   
-        </section>
+        </section>    
+```
         
-        ```
+Kode tersebut merupakan bagian dari sebuah halaman web yang menampilkan daftar mobil yang tersedia. Berikut adalah penjelasan mengenai kode diatas :
+
+1. Kode PHP melakukan query ke database untuk mengambil mobil yang tersedia.
+2. Jika terdapat mobil yang tersedia, maka setiap mobil akan ditampilkan dengan informasi seperti gambar, nama, dan harga.
+3. Jika tidak ada mobil yang tersedia, maka ditampilkan pesan "No cars available".
+   
+Secara keseluruhan, kode tersebut digunakan untuk menampilkan konten dinamis berdasarkan data yang ada di database, sehingga pengguna dapat melihat daftar mobil yang tersedia dengan rincian harga dan detail lainnya.
