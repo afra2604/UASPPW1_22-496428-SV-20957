@@ -62,7 +62,7 @@ Website akan beberbentuk seperti ini jika tampilannya diperkecil :
 <img width="1440" alt="Jepretan Layar 2023-06-22 pukul 08 22 26" src="https://github.com/afra2604/UASPPW1_22-496428-SV-20957/assets/109967726/7f01c1fe-f4aa-4df9-a700-06734a30a8a4">
 
 ### Kerapian
-Pada page-page website yang mirip tampilan dibuat sama agar tampilan tetap konsisten sehingga terasa nyaman untuk dilihat. 
+Tampilan page-page website dibuat konsisten sama agar tampilan terlihat rapi. 
 
 <img width="1440" alt="Jepretan Layar 2023-06-22 pukul 11 52 30" src="https://github.com/afra2604/UASPPW1_22-496428-SV-20957/assets/109967726/cd797ccb-96f5-49fc-b184-ebdf11fee08d">
 
