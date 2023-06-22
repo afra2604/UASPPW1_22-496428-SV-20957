@@ -3,11 +3,11 @@
 # 22/496428/SV/20957
 
 ## Catatan:
-## Penjelasan umum :
+### Penjelasan umum :
 Website Car Rental by Ceryneian ini merupakan website yang memiliki jasa penyewaan mobil bagi orang yang ingin atau membutuhkan mobil dalam jangka waktu tertentu sesuai dengan perjanjian. Penyewaan ini memudahkan pengguna untuk bisa langsung membooking mobil tanpa harus datang terlebih dahulu ketempat penyewaannya. 
-### Responsive :
 
-Ketika diatas 768px maka class-class ini akan mengoverride style css
+### Responsive :
+Ketika tampilan website berukuran diatas 768px maka class-class ini akan mengoverride style css
 
 ```CSS
 @media (min-width: 768px) {
@@ -57,7 +57,7 @@ Ketika diatas 768px maka class-class ini akan mengoverride style css
 <img width="1440" alt="Jepretan Layar 2023-06-22 pukul 08 22 26" src="https://github.com/afra2604/UASPPW1_22-496428-SV-20957/assets/109967726/7f01c1fe-f4aa-4df9-a700-06734a30a8a4">
 
 ### Kerapian
-
+Pada page-page website yang mirip tampilan dibuat sama agar tampilan tetap konsisten
 
 <img width="1440" alt="Jepretan Layar 2023-06-22 pukul 11 52 30" src="https://github.com/afra2604/UASPPW1_22-496428-SV-20957/assets/109967726/55a511ff-bb94-42ae-b69b-e956cbbaa63d">
 
@@ -92,7 +92,7 @@ Untuk mengambil data dari database
                
                     ?>
   ```
-Untuk menampilkan hasil sql ke website atau HTML
+Untuk menampilkan data hasil sql ke website 
 ``` HTML
             <a href="booking.php?id=<?php echo($car_id) ?>">
             <div class="sub-menu">
