@@ -52,4 +52,13 @@ Website Car Rental by Ceryneian ini merupakan website yang memiliki jasa penyewa
   }
 }
 ```
+<img width="1440" alt="Jepretan Layar 2023-06-22 pukul 08 22 21" src="https://github.com/afra2604/UASPPW1_22-496428-SV-20957/assets/109967726/a13904b2-e1d7-4109-a93d-3c33d2527fee">
+<img width="1440" alt="Jepretan Layar 2023-06-22 pukul 08 22 26" src="https://github.com/afra2604/UASPPW1_22-496428-SV-20957/assets/109967726/7f01c1fe-f4aa-4df9-a700-06734a30a8a4">
+
 ### Kerapian
+
+### JavaScript
+
+### Konten Dinamis
+
+
