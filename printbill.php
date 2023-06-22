@@ -230,7 +230,7 @@ else {
                 <h4> <strong>Total Fine:</strong> <label class="text-danger"> Rs. <?php echo $total_fine; ?>/- </label> for <?php echo $extra_days;?> extra days.</h4>
                 <br>
                 <?php } ?>
-                <h4> <strong>Total Amount: </strong> Rs. <?php echo $total_amount; ?>/-     </h4>
+                <h4> <strong>Total Amount: </strong> Rp. <?php echo $total_amount; ?>/-     </h4>
                 <br>
             </div>
         </div>
